@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from views import Serie
+from .models import Serie
 
 # Create your views here.
 
