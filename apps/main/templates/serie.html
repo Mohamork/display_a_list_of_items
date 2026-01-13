@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Series</title> 
 </head>
-{% for serie in series %}
-{{ serie.name }}
+<h1> A List Of The Most Popular Netflix Series In January 2026</h1>
+<ul>
+    {% for serie in series %}
+    <li> 
+        {{ serie.name }}
+    </li>
 {% endfor %}
+</ul>
+
 <body>
     
 </body>
