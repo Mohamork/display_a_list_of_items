@@ -6,13 +6,12 @@
     <title>Series</title> 
 </head>
 <h1> A List Of The Most Popular Netflix Series In January 2026</h1>
-<ul>
-    {% for serie in series %}
-    <li> 
+
+{% for serie in series %}
+    <ul> 
         {{ serie.name }}
-    </li>
+    </ul>
 {% endfor %}
-</ul>
 
 <body>
     
